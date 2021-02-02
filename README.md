@@ -59,9 +59,7 @@ Then in another terminal run:
 
 and go to:
 
-`http://localhost:1313/admin` 
-
-where you will be prompted to "login" without needing any credentials.
+`http://localhost:1313/admin`
 
 Netlify CMS will write to the local git repository. To actually publish these changes to your Github Pages site you have run the Hugo static site generator locally, commit those changes, and push to Github:
 - `hugo`
