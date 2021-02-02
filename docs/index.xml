@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Welcome on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Feb 2021 10:40:50 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog post 2</title>
+      <link>http://example.org/posts/2021-02-02-blog-post-2/</link>
+      <pubDate>Tue, 02 Feb 2021 10:40:50 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2021-02-02-blog-post-2/</guid>
+      <description>Donec mattis, sapien a molestie viverra, sapien dui porta metus, a scelerisque elit enim ac ante. Ut a efficitur odio. Pellentesque hendrerit quam dapibus sem lobortis congue ac quis neque. Suspendisse congue nisl at ex congue, eu fringilla turpis porta. Pellentesque ullamcorper blandit odio ut sagittis. Cras nec sapien pharetra, maximus mi ut, euismod lacus. Fusce pretium elit leo, eu cursus lorem lacinia commodo. Cras pulvinar ipsum sit amet dolor elementum, auctor gravida ex accumsan.</description>
+    </item>
+    
+    <item>
+      <title>Blog post 1</title>
+      <link>http://example.org/posts/2021-02-02-blog-post-1/</link>
+      <pubDate>Tue, 02 Feb 2021 10:40:09 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2021-02-02-blog-post-1/</guid>
+      <description>Maecenas diam odio, bibendum et ipsum ac, elementum scelerisque magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam at placerat augue. Donec ultrices cursus felis, ac laoreet lorem aliquam in. Nunc bibendum rutrum lectus in hendrerit. Pellentesque vestibulum ut nisl eu aliquet. Suspendisse lacinia ipsum ut eleifend iaculis. Sed porttitor condimentum sem, in tempor lectus condimentum ac. Nullam aliquam, ipsum tincidunt vehicula vehicula, nunc orci consequat justo, a consequat justo risus id arcu.</description>
+    </item>
+    
+  </channel>
+</rss>
