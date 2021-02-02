@@ -6,6 +6,15 @@ local_backend: true
 media_folder: "images/uploads"
 
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Content", name: "body", widget: "markdown"}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "content/" # The path to the folder where the documents are stored
