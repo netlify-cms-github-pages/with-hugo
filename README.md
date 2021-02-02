@@ -15,9 +15,11 @@ backend:
 
 local_backend: true
 
-media_folder: "images/uploads"
+media_folder: "static/uploads/"
+public_folder: "/uploads"
 
 collections:
+
   - name: "blog"
     label: "Blog"
     folder: "content/"
