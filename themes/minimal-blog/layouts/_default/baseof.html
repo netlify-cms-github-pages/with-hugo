@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        {{.Site.Title}}
+    </title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 133%;
+            margin: 0 auto;
+            max-width: 750px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <nav>
+                <a href="/">
+                    {{.Site.Title}}
+                </a>
+            </nav>
+        </h1>
+    </header>
+
+    {{ block "main" . }}
+    <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+</body>
+
+</html>
